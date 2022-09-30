@@ -1,0 +1,237 @@
+
+.avisoContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin: 0%;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.section-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.inputDesc{
+    width: 14rem;
+    height: 1.40rem;
+    padding: 2%;
+}
+.SectionTitle{
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-left: 4%;
+}
+
+.menu{
+    background-color: aliceblue;
+}
+
+.formsection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 220, 255) ;
+    width: 70%;
+    margin-bottom: 2.5%;
+    padding: 2% 5%;
+    margin-top:0% ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.input-icon {
+	color: #191919;
+	width: 1.20rem;
+    height: 1.40rem;
+}
+.buttonSearch{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 2.3rem;
+    height: 1.9rem; 
+
+}
+.cerrarSesion{
+    width: 100%;
+    text-align: end;
+}
+.cerrarSesion button{
+    height: 2rem;
+    border: 0px;
+    border-radius: 8px;
+    background: rgb(120, 163, 237);
+    cursor: pointer;
+}
+
+.titleForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 70%;
+    height: 5.4rem;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0% 5%;
+}
+.tableCabecera{
+    width: auto;
+    padding-left: 6%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.separador{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.cabeceraContainer{
+    border-bottom: black 2px solid ;
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ModalFechas{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.thead{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.tbody{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    background-color: #fff;
+}
+
+.infoContainer{
+    border-bottom: gray 1px solid ;
+    background-color: rgb(205, 232, 255);
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.modalcss{
+    background-color: rgb(134, 194, 247);
+    width: 100%;
+    margin-top: 50%;
+    
+}
+.bodyModal{
+    width: 100%;
+}
+.formModel{
+    width: 100%;
+}
+.modalcssDialog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+.observacionesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    align-items: calc();
+}
+
+.observaciones{
+    min-height: 3rem;
+    max-height: 9rem;
+    min-width: 50%;
+    max-width: 80%;
+    font-size: medium;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    background-color: rgb(203, 233, 255) ;
+    align-items: center;
+    padding: 2% 5%;
+    border-radius: 5px;
+}
+.tableInfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 30%;
+    min-height: 3rem;
+}
+.tableInfoDesp{
+    max-width: 40%;
+}
+.buttons{
+    width: 7rem;
+    margin: 5%;
+    height: 2rem;
+    border: 0px;
+    border-radius: 8px;
+    background: rgb(120, 163, 237);
+    cursor: pointer;
+}

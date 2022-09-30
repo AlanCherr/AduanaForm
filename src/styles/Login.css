@@ -1,0 +1,84 @@
+
+.subContainerLogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    background-color: rgb(207, 232, 254);
+    height: 30rem;
+    width: 50%;
+    padding: 0% 10%;
+    margin: 8%;
+    border-radius: 2rem;
+    flex-wrap: wrap-reverse;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    width: 70%;
+    margin: 8% auto;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(174, 220, 255) ;
+    border-radius: 10%;
+    border: 5px;
+    text-align: left;
+  }
+
+.token{
+    font-size: xx-small;
+}
+.titleLogin{
+    width: 60%;
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 20px;
+  
+  }
+.containerLogin{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .continput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5%;
+  
+  }
+  .labelLogin{
+    text-align: left;
+    width: 85%;
+    padding: 5%;
+  }
+  .inputLogin{
+    width: 70%;
+  }
+
+.error{
+    color: red;
+    margin: 0%;
+  }
+
+.buttonLogin{
+  height: 2rem;
+  border: 0px;
+  width: 6rem;
+  border-radius: 8px;
+  background: rgb(120, 163, 237);
+  cursor: pointer;
+}
